@@ -15,7 +15,7 @@
 
     <!-- Shops Grid -->
     <div class="flex flex-wrap justify-center gap-4">
-      <div class="border rounded-lg p-4 w-full sm:w-auto">
+      <div class="border rounded-lg p-4 w-full sm:w-auto cursor-pointer">
         <div class="flex items-center justify-between mb-4">
           <img src="/radiusLogo.png" alt="Radius Logo" class="w-20" />
           <div class="text-yellow-500">★ 4.5</div>
@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class="border rounded-lg p-4 w-full sm:w-auto">
+      <div class="border rounded-lg p-4 w-full sm:w-auto cursor-pointer">
         <div class="flex items-center justify-between mb-4">
           <img src="/texnomartLogo.png" alt="Radius Logo" class="w-20" />
         </div>
@@ -74,7 +74,7 @@
         </div>
       </div>
 
-      <div class="border rounded-lg p-4 w-full sm:w-auto">
+      <div class="border rounded-lg p-4 w-full sm:w-auto cursor-pointer">
         <div class="flex items-center justify-between mb-4">
           <img src="/clozLogo.png" alt="Radius Logo" class="w-20" />
           <div class="text-yellow-500">★ 4.5</div>
