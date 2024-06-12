@@ -1,11 +1,18 @@
 <template>
   <div>
-    <Login />
+    <Navbar />
+    <ShopSection />
   </div>
 </template>
 
-<script setup>
-import Login from "../components/Login.vue";
-</script>
+<script>
+import Navbar from "../components/Navbar.vue";
+import ShopSection from "../components/ShopSection.vue";
 
-<style lang="scss" scoped></style>
+export default {
+  components: {
+    Navbar,
+    ShopSection
+},
+};
+</script>
