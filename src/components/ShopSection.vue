@@ -14,8 +14,8 @@
     </h2>
 
     <!-- Shops Grid -->
-    <div class="flex flex-wrap justify-center gap-4">
-      <div class="border rounded-lg p-4 w-full sm:w-auto cursor-pointer">
+    <div class="flex flex-wrap justify-center gap-4 w-full">
+      <div class="border rounded-lg p-4 sm:w-auto cursor-pointer w-full">
         <div class="flex items-center justify-between mb-4">
           <img src="/radiusLogo.png" alt="Radius Logo" class="w-20" />
           <div class="text-yellow-500">★ 4.5</div>
@@ -112,6 +112,10 @@
       </button>
     </div>
   </section>
+
+  <button>
+    <a href="/reviews">Keyingi sahifaga otish</a>
+  </button>
 </template>
 
 <script setup>
