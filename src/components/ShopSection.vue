@@ -107,15 +107,21 @@
 
     <!-- View All Shops Button -->
     <div class="text-center">
-      <button class="bg-orange-500 text-white px-4 py-2 rounded-md mt-2">
-        Все магазины
-      </button>
+      <a href="/magazine">
+        <button class="bg-orange-500 text-white px-4 py-2 rounded-md mt-2">
+          Все магазины
+        </button>
+      </a>
     </div>
   </section>
 
-  <button>
-    <a href="/reviews">Keyingi sahifaga otish</a>
-  </button>
+  <div class="text-center">
+    <a href="/reviews" class="pulsing-link">
+      <button class="bg-orange-500 text-white px-4 py-2 rounded-md m-5">
+        Review page ga otish
+      </button>
+    </a>
+  </div>
 </template>
 
 <script setup>
@@ -123,5 +129,26 @@
 </script>
 
 <style scoped>
+/* Define the pulsing animation */
+@keyframes pulse {
+  0% {
+    transform: scale(10);
+    box-shadow: 0 0 0 0 rgba(255, 190, 0, 0.7);
+  }
+  70% {
+    transform: scale(10);
+    box-shadow: 0 0 0 10px rgba(255, 190, 0, 0);
+  }
+  100% {
+    transform: scale(10);
+    box-shadow: 0 0 0 0 rgba(255, 190, 0, 0);
+  }
+}
+
+/* Apply the pulsing animation to the link when hovered */
+.pulsing-link:hover {
+  animation: pulse 1s infinite;
+}
+
 /* Add any scoped styles if necessary */
 </style>

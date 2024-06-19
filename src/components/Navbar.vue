@@ -25,8 +25,9 @@
 
   <!-- Second Div -->
   <div class="secondDiv flex items-center justify-between shadow-xl">
-    <img src="/Logo.png" alt="Logo" class="pl-[120px] p-3" />
-
+    <a href="/">
+      <img src="/Logo.png" alt="Logo" class="pl-[120px] p-3" />
+    </a>
     <!-- Search Bar -->
 
     <!-- Right Side Icons -->

@@ -123,7 +123,7 @@ export default {
   },
   methods: {
     fetchReviews() {
-      // Simulated initial hardcore reviews
+
       const hardcoreReviews = [
         {
           id: 1,
@@ -148,8 +148,7 @@ export default {
         },
       ];
 
-      // Fetch additional reviews from the internet
-      fetch("https://dummyjson.com/comments?limit=4")
+      fetch("https://dummyjson.com/comments?limit=7")
         .then((response) => response.json())
         .then((data) => {
           const fetchedReviews = data.comments;
