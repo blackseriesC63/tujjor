@@ -1,5 +1,10 @@
 <template lang="">
   <div class="container">
+    <div class="flex pt-10 pl-[10px]">
+      <a href="/"><p>Главная страница</p></a> /
+      <a href="/magazine"> Все магазины</a>
+    </div>
+
     <h2 class="text-orange-500 text-3xl font-bold mb-6 pl-[10px] mt-9">
       Ваши магазины
     </h2>
@@ -181,35 +186,37 @@
         </div>
       </div>
 
-      <div class="border rounded-lg p-4 sm:w-auto cursor-pointer w-full">
-        <div class="flex items-center justify-between mb-4">
-          <img src="/arisLogo.png" alt="Radius Logo" class="w-20" />
-          <div class="text-yellow-500">★ 4.5</div>
-        </div>
-        <div class="text-gray-700 mb-2">
-          Товары из категории Акции и скидки Товары из <br />
-          категории....
-        </div>
-        <div class="flex flex-wrap items-center gap-2">
-          <img
-            src="/aris1.png"
-            alt="Product 1"
-            class="w-full sm:w-[180px] h-[210px] object-cover"
-          />
-          <div class="flex flex-col space-y-2 w-full sm:w-auto">
+      <a href="/mag">
+        <div class="border rounded-lg p-4 sm:w-auto cursor-pointer w-full">
+          <div class="flex items-center justify-between mb-4">
+            <img src="/arisLogo.png" alt="Radius Logo" class="w-20" />
+            <div class="text-yellow-500">★ 4.5</div>
+          </div>
+          <div class="text-gray-700 mb-2">
+            Товары из категории Акции и скидки Товары из <br />
+            категории....
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
             <img
-              src="/aris2.png"
-              alt="Product 2"
-              class="w-full sm:w-[160px] h-[100px] object-cover"
+              src="/aris1.png"
+              alt="Product 1"
+              class="w-full sm:w-[180px] h-[210px] object-cover"
             />
-            <img
-              src="/aris3.png"
-              alt="Product 3"
-              class="w-full sm:w-[160px] h-[100px] object-cover"
-            />
+            <div class="flex flex-col space-y-2 w-full sm:w-auto">
+              <img
+                src="/aris2.png"
+                alt="Product 2"
+                class="w-full sm:w-[160px] h-[100px] object-cover"
+              />
+              <img
+                src="/aris3.png"
+                alt="Product 3"
+                class="w-full sm:w-[160px] h-[100px] object-cover"
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </a>
 
       <div class="border rounded-lg p-4 sm:w-auto cursor-pointer w-full">
         <div class="flex items-center justify-between mb-4">
